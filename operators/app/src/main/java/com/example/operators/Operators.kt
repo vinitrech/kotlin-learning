@@ -10,6 +10,8 @@ fun main() {
     val multiplication = x * y
     val module = x % y
 
+    println("Type check: ${sum is Int}") // "is" check the type of any variable
+
     println("Sum: $sum")
     println("$x + $y: ${x + y}\n")
 
