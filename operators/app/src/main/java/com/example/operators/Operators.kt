@@ -35,4 +35,32 @@ fun main() {
     println("SHIFT LEFT 5 TIMES: ${x shl 5}")
     println("SHIFT RIGHT 5 TIMES: ${x shr 5}")
     println("UNSIGNED SHIFT RIGHT 5 TIMES: ${x ushr 5}")
+
+    var result = x + y
+
+    result += 1
+    result -= 1
+    result *= 1
+    result /= 1
+    result %= 1
+    result++ // returns the value before increment
+    ++result // increment the value then returns <- prefer this way
+
+    /*
+    * random block comment
+    * */
+
+    //Boolean operators
+    println(result >= 2)
+    println(result <= 2)
+    println(result == 2)
+    println(result != 2)
+    println(result !== 2)
+    println(result === 2)// identical operator - checks value and type of variable
+    println(result > 2)
+    println(result < 2)
+    println(!true)
+    println(!false)
+    println(true && false)
+    println(true || false)
 }
